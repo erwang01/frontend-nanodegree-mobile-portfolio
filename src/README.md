@@ -8,9 +8,17 @@ Added optimized image,JS, and CSS resources to dist/, keeping originals in src/
 Moved all images onto repository, no longer dependent on remote servers.
 
 main.js optimizations:
-Moved scrollTop querry to outside of the for loop.
+Moved scrollTop query to outside of the for loop.
 Removed dx calculations from changing pizza size, combined it into changingPizzaSizes method.
-Moved pizza icon querry out of the for loop.
+Moved pizza icon query out of the for loop.
+Used document.getElementById instead of querySelector.
+Used document.getElementsByClassName instead of querySelectorAll
+Moved pizzasDiv outside of the loop.
+Moved movingPizzas query out of the loop.
+Declare variables out of the loop.
+
+views/css/style.css changes:
+added transformZ(0); to moving pizzas.
 
 ----------------------------
 ## Website Performance Optimization portfolio project
