@@ -6,6 +6,7 @@ Added media tag to print.css
 Removed README.md from dist/
 Added optimized image,JS, and CSS resources to dist/, keeping originals in src/
 Moved all images onto repository, no longer dependent on remote servers.
+Inline style.css
 
 main.js optimizations:
 Moved scrollTop query to outside of the for loop.
@@ -16,6 +17,7 @@ Used document.getElementsByClassName instead of querySelectorAll
 Moved pizzasDiv outside of the loop.
 Moved movingPizzas query out of the loop.
 Declare variables out of the loop.
+Reduced number of floating pizzas
 
 views/css/style.css changes:
 added transformZ(0); to moving pizzas.
